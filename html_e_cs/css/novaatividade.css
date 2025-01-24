@@ -1,0 +1,114 @@
+
+		/* Estilos globais para o elemento <body> */
+		body {
+			font-family: Arial, sans-serif; /* Define a fonte para Arial, com fallback para sans-serif */
+			margin: 20px; /* Adiciona uma margem de 20 pixels em todos os lados do corpo da página */
+			line-height: 3; /* Aumenta o espaçamento entre linhas para 3 vezes o tamanho da fonte padrão */
+		}
+
+		/* Estilos para elementos com a classe .button */
+		.button {
+			background-color: blue; /* Define a cor de fundo dos botões como azul */
+			color: white; /* Define a cor do texto dentro dos botões como branca */
+			padding: 10px 20px; /* Adiciona padding (espaço interno) de 10px vertical e 20px horizontal */
+			transition: background-color 0.3s, color 0.3s; /* Suaviza a transição de cores e cor de fundo */
+			cursor: pointer; /* Muda o cursor para o estilo de ponteiro, indicando que o elemento é clicável */
+		}
+
+		/* Estilos para .button quando o mouse está sobre o elemento */
+		.button:hover {
+			background-color: white; /* Muda a cor de fundo para branco quando o mouse está sobre o botão */
+			color: blue; /* Muda a cor do texto para azul quando o mouse está sobre o botão */
+		}
+
+		/* Estilos para elementos com a classe .image */
+		.image {
+			display: flex; /* Usa Flexbox para facilitar o alinhamento dos filhos */
+			align-items: center; /* Centraliza verticalmente os filhos dentro do .image */
+			justify-content: center; /* Centraliza horizontalmente os filhos dentro do .image */
+			width: 100%; /* Ocupa 100% da largura do contêiner pai */
+			overflow: hidden; /* Oculta qualquer conteúdo que exceda os limites do elemento */
+			background-color: #ffff00; /* Define uma cor de fundo para o .image */
+		}
+
+		/* Estilos para a tag <img> dentro de .image */
+		.image img {
+			width: 30%; /* Define a largura da imagem como 30% da largura do contêiner pai */
+			transition: transform 0.3s ease-in-out; /* Suaviza a transformação quando aplicada */
+			object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível, sem distorção */
+
+		}
+
+		/* Estilos para .image img quando o mouse está sobre .image */
+		.image:hover img {
+			transform: scale(1.1); /* Amplia a imagem em 10% */
+			filter: grayscale(100%); /* Aplica um filtro de escala de cinza de 100% */
+		}
+
+		/* Estilos para elementos com a classe .card */
+		.card {
+			padding: 20px; /* Adiciona 20px de espaço interno ao redor do conteúdo do .card */
+			margin: 10px 0; /* Adiciona margem vertical de 10px acima e abaixo do .card */
+			box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Aplica uma sombra suave ao redor do .card */
+			transition: box-shadow 0.3s ease-in-out; /* Suaviza a transição da sombra */
+		}
+
+		/* Estilos para .card quando o mouse está sobre o elemento */
+		.card:hover {
+			box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Intensifica a sombra ao redor do .card quando o mouse passa sobre */
+		}
+
+		/* Estilos para elementos com a classe .input-field */
+		.input-field {
+			padding: 8px; /* Adiciona 8px de espaço interno */
+			border: 2px solid gray; /* Adiciona uma borda sólida cinza com 2px de espessura */
+			transition: border-color 0.3s; /* Suaviza a transição da cor da borda */
+		}
+
+		/* Estilos para .input-field quando o mouse está sobre o elemento */
+		.input-field:hover {
+			border-color: blue; /* Muda a cor da borda para azul quando o mouse passa sobre */
+		}
+
+		/* Estilos para elementos com a classe .fade-item */
+		.fade-item {
+			opacity: 0.5; /* Define a opacidade inicial como 50% */
+			transition: opacity 0.3s ease-in-out; /* Suaviza a transição da opacidade */
+		}
+
+		/* Estilos para .fade-item quando o mouse está sobre o elemento */
+		.fade-item:hover {
+			opacity: 1.0; /* Aumenta a opacidade para 100% quando o mouse passa sobre */
+		}
+
+		/* Estilos para elementos com a classe .link */
+		.link {
+			color: blue; /* Define a cor do texto como azul */
+			text-decoration: none; /* Remove qualquer decoração de texto, como sublinhado */
+			transition: text-decoration-color 0.3s, color 0.3s; /* Suaviza a transição da cor do texto e da decoração */
+		}
+
+		/* Estilos para .link quando o mouse está sobre o elemento */
+		.link:hover {
+			text-decoration: underline; /* Adiciona sublinhado ao texto */
+			text-decoration-color: red; /* Define a cor do sublinhado como vermelho */
+			color: red; /* Muda a cor do texto para vermelho */
+		}
+
+		/* Estilos para elementos com a classe .photo */
+		.photo {
+			width: 100px; /* Define a largura do .photo como 100px */
+			height: 100px; /* Define a altura do .photo como 100px */
+			background-color: #000; /* Define a cor de fundo como preta */
+			color: #FFFF00; /* Define a cor do texto dentro do .photo como amarelo */
+			display: flex; /* Usa Flexbox para facilitar o alinhamento dos filhos */
+			align-items: center; /* Centraliza verticalmente os filhos dentro do .photo */
+			justify-content: center; /* Centraliza horizontalmente os filhos dentro do .photo */
+			transition: filter 0.3s ease-in-out; /* Suaviza a transição do filtro aplicado */
+			filter: grayscale(100%); /* Aplica um filtro de escala de cinza, tornando a imagem totalmente cinza */
+		}
+
+		/* Estilos para .photo quando o mouse está sobre o elemento */
+		.photo:hover {
+			filter: grayscale(50%); /* Reduz a intensidade do filtro de escala de cinza para 50% */
+		}

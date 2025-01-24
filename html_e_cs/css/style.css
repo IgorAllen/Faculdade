@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo padrão para itens */
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/* Alinhamento horizontal */
+.horizontal {
+    justify-content: space-around;
+}
+
+/* Alinhamento vertical */
+.vertical {
+    align-items: center;
+    height: 200px;
+}
+
+/* Distribuição de espaço */
+.space-between {
+    justify-content: space-between;
+}
+
+/* Alinhamento ao centro */
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Direção da coluna */
+.column {
+    flex-direction: column;
+    height: 300px;
+}
