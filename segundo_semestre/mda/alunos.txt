@@ -1,0 +1,6 @@
+nome,g1,g2
+fulano,8,10
+ciclano,6,9
+Beltrano,6,4
+
+

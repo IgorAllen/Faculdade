@@ -1,0 +1,4 @@
+nome, media
+fulano, 9.33
+ciclano, 8.0
+Beltrano, 4.67
